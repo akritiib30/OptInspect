@@ -1,0 +1,49 @@
+# --- Datasets: MVTec AD is CC BY-NC-SA 4.0. Do NOT redistribute its images. ---
+/bottle/
+/cable/
+/capsule/
+/carpet/
+/grid/
+/hazelnut/
+/leather/
+/metal_nut/
+/pill/
+/screw/
+/tile/
+/toothbrush/
+/transistor/
+/wood/
+/zipper/
+# Derived from MVTec photos (reference + sample copies): rebuild with build_product.py
+/products/bottle/
+# Synthetic test photos (regenerate with make_hard_images.py)
+/bottle_fake/
+*.tar.xz
+*.zip
+
+# --- Generated output and private runtime data ---
+# userdata/ holds accounts and the key that signs sessions: never commit it
+/userdata/
+/logs/
+/store/
+/out/
+# Demo video tooling: keep the script, ignore its environment, scratch files and the big output
+/demo_video/.venv/
+/demo_video/tmp/
+/demo_video/work/
+/demo_video/*.mp4
+/demo_video/*.exe
+/demo_video/run.log
+# Frontend: ship the built app (frontend/dist) so `python server.py` works without Node
+node_modules/
+__pycache__/
+*.pyc
+
+# --- Secrets and environments: never commit these ---
+.env
+*.pem
+*.key
+.aws/
+credentials*
+.venv/
+venv/

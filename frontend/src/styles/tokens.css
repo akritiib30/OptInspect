@@ -1,0 +1,78 @@
+/* OptiInspect design tokens.
+   Idea: an instrument enclosure. Deep blue-black surfaces, warm "ring light" gold for the one thing to do next,
+   and a heat-map gradient (the colours of the difference maps the product produces) reserved for data. */
+:root {
+  color-scheme: dark;
+  --bg: #05070d;
+  --bg-2: #090d17;
+  --surface: #0d1220;
+  --surface-2: #131a2d;
+  --surface-3: #1b2442;
+  --line: rgba(150, 165, 255, 0.1);
+  --line-2: rgba(150, 165, 255, 0.2);
+  --text: #eef1fb;
+  --text-2: #aab3cf;
+  --text-3: #7480a3;
+  --ghost: rgba(255, 255, 255, 0.045);
+  --ghost-2: rgba(255, 255, 255, 0.09);
+
+  --gold: #ffc857;
+  --gold-2: #ffe3a3;
+  --gold-text: #ffcf6e;
+  --gold-ink: #1b1300;
+
+  --heat-0: #2a1070;
+  --heat-1: #7b1fa2;
+  --heat-2: #e6446e;
+  --heat-3: #ff8a3d;
+  --heat-4: #ffd76b;
+  --heat: linear-gradient(90deg, #2a1070 0%, #7b1fa2 25%, #e6446e 50%, #ff8a3d 75%, #ffd76b 100%);
+
+  --ok: #3ddc97;
+  --warn: #ffb020;
+  --bad: #ff5470;
+  --mute: #8591b3;
+  --info: #6ba8ff;
+  --ok-bg: rgba(61, 220, 151, 0.12);
+  --warn-bg: rgba(255, 176, 32, 0.13);
+  --bad-bg: rgba(255, 84, 112, 0.13);
+  --mute-bg: rgba(133, 145, 179, 0.15);
+  --info-bg: rgba(107, 168, 255, 0.13);
+
+  --radius-s: 9px;
+  --radius: 16px;
+  --radius-l: 24px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.045) inset, 0 24px 48px -28px rgba(0, 0, 0, 0.8);
+  --font: "Bricolage Grotesque", "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --nav-h: 72px;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f2f4fa;
+  --bg-2: #e9edf8;
+  --surface: #ffffff;
+  --surface-2: #f4f6fc;
+  --surface-3: #e7ebf8;
+  --line: rgba(28, 40, 96, 0.1);
+  --line-2: rgba(28, 40, 96, 0.2);
+  --text: #0d1326;
+  --text-2: #434d6b;
+  --text-3: #6d779a;
+  --ghost: rgba(20, 30, 80, 0.045);
+  --ghost-2: rgba(20, 30, 80, 0.09);
+  --gold: #e0a020;
+  --gold-text: #8f5f00;
+  --ok: #138a5a;
+  --warn: #b26a00;
+  --bad: #cf2c4d;
+  --mute: #5d688c;
+  --info: #2a64c8;
+  --ok-bg: rgba(19, 138, 90, 0.11);
+  --warn-bg: rgba(178, 106, 0, 0.12);
+  --bad-bg: rgba(207, 44, 77, 0.1);
+  --mute-bg: rgba(93, 104, 140, 0.12);
+  --info-bg: rgba(42, 100, 200, 0.1);
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 20px 40px -28px rgba(30, 40, 100, 0.35);
+}

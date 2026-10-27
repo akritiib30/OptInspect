@@ -1,0 +1,5 @@
+Bricolage Grotesque (bricolage-latin.woff2, bricolage-latin-ext.woff2)
+Copyright The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
+
+Licensed under the SIL Open Font License, Version 1.1.
+Full text and FAQ: https://openfontlicense.org
